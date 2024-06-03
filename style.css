@@ -379,13 +379,13 @@ body{
     /* background-color: red; */
     display: inline-block;
     margin-right: 16px;
-    animation-name: anime;
+    animation-name: anime2;
     animation-duration: 12s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
-@keyframes anime {
+@keyframes anime2 {
     from{
         transform: translateX(0);
     }
@@ -414,7 +414,7 @@ body{
     display: inline-block;
     margin-right: 16px;
     transform: translateX(calc(-100% - 20px));
-    animation-name: anime;
+    animation-name: anime2;
     animation-duration: 12s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -444,6 +444,7 @@ body{
     padding-left: 28vw;
     padding-right: 2vw;
 }
+
 
 #footer h1{
     font-size: 7vw;
@@ -498,4 +499,6 @@ body{
     font-weight: 500;
     /* margin: 0.2vw 0; */
 }
+
+
 
